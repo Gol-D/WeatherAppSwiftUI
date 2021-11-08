@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WeatherResponse {
+struct WeatherResponse: Codable {
     let current: Weather
     let hourly: [Weather]
     let daily: [DailyWeather]

@@ -19,6 +19,7 @@
 		DE00D7E82739362F00D7DF06 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00D7E72739362F00D7DF06 /* WeatherResponse.swift */; };
 		DE00D7EA2739365100D7DF06 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00D7E92739365100D7DF06 /* DailyWeather.swift */; };
 		DE00D7EC2739367500D7DF06 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00D7EB2739367500D7DF06 /* Temperature.swift */; };
+		DE00D7EE2739417C00D7DF06 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE00D7ED2739417C00D7DF06 /* CityViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DE00D7E72739362F00D7DF06 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		DE00D7E92739365100D7DF06 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		DE00D7EB2739367500D7DF06 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		DE00D7ED2739417C00D7DF06 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		DE00D7DB273923D900D7DF06 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DE00D7ED2739417C00D7DF06 /* CityViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE00D7E42739290600D7DF06 /* NetworkManager.swift in Sources */,
+				DE00D7EE2739417C00D7DF06 /* CityViewViewModel.swift in Sources */,
 				DE00D7CD27391D1300D7DF06 /* ContentView.swift in Sources */,
 				DE00D7E62739361D00D7DF06 /* WeatherDetail.swift in Sources */,
 				DE00D7DE2739243600D7DF06 /* API.swift in Sources */,
